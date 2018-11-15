@@ -1,0 +1,194 @@
+* {
+  outline: 0 !important;
+}
+
+body {
+	margin: 0 auto;
+	padding: 0 70px;
+	min-width: 320px;
+	font-family: sans-serif;
+}
+
+header {
+	height: 100vh;
+	background-image: url(../img/tea-bg.jpg);
+  	background-repeat: no-repeat;
+  	background-position: 85% 55%;
+  	background-size: 300px 217px;
+}
+
+header, section, footer {
+	flex-wrap: wrap;
+	padding: 0 15px;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+	transition: all 0.5s;
+}
+
+ul li {
+	list-style: none;
+}
+
+i {
+	padding-right: 20px;
+}
+
+abbr {
+	cursor: help;
+}
+
+.title {
+	width: 30%;
+	margin: 0 auto;
+}
+.title-color {
+	color: #c8913d;
+}
+
+/* Title h*/
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;	
+}
+h1 {
+	font-size: 70px;
+	text-align: right;
+	padding-top: 100px;	
+}
+h2 {
+	padding-top: 20px;
+}
+h4 {
+	margin-left: 145px;
+	font-size: 18px;
+	width: 90px;
+	transition: all 0.5s;
+}
+h5 {
+	font-family: Gabriola, Arial;
+	font-size: 21px;	
+	margin-top: -30px;	
+	-moz-user-select: none;
+	user-select: none;
+}
+h6 {
+	font-size: 30px;
+	text-align: right;
+}
+/*----------------------*/
+
+button {
+	margin-top: 30px;
+	cursor: pointer;
+	color: #fff;
+	background: #615b5f;
+	transition: all 0.5s;
+	width: 150px;
+	padding: 10px 0;
+	border-radius: 5px;
+	margin: 20px 0 50px 145px;
+	box-shadow: 2px 4px 8px 0px rgba(0,0,0,0.5);
+}
+
+button:hover {
+	color: #eeac0b;
+}
+button:active {
+	box-shadow: none;
+}
+
+/* Flex*/
+.flex-s-beetwen {
+	justify-content: space-between;
+}
+.flex-grow {
+	flex-grow: 1;
+}
+.flex {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.align-items-c {
+	align-items: center;
+}
+.flex-direction {
+	flex-direction: row;
+}
+/*----------------------*/
+
+.nav {
+	padding-top: 35px;
+	width: 100%;
+}
+
+.nav-menu {
+	justify-content: flex-end;
+}
+
+.logo>img {
+	width: 70px;
+	height: 70px;
+}
+
+nav>ul>li {
+	padding-left: 40px;
+	font-weight: bold;
+}
+
+nav>ul>li>a:hover {
+	border-bottom: 2px solid #eeac0b;
+	color: #eeac0b;
+	padding-bottom: 15px;
+}
+
+/*first section*/
+
+
+.description-products {
+	width: 50%;
+}
+
+.img-about-tea {
+	background-image: url(../img/description-products.jpg);
+	background-repeat: no-repeat;
+  	background-position: 0% 0%;
+  	background-size: 400px 266px;
+  	width: 50%;
+}
+
+//second section
+.products-section {
+	width: 100%;
+}
+.wholesale, .retail {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.wholesale img {
+	width: 400px;
+	height: 400px;
+}
+
+.products-wholesale, .products-retail {
+	margin: 0 auto;
+	width: 50%;
+}
+
+.retail img {
+	width: 327px;
+	height: 400px;
+}
+
+h4:hover {
+	padding-bottom: 15px;
+	border-bottom: 2px solid #c8913d;
+	cursor: pointer;
+}
+
